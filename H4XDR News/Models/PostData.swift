@@ -15,6 +15,8 @@ struct Post: Codable, Identifiable {
     var id: String {
         return objectID
     }
+    
+    // comment for commit
     let points: Int
     let title: String
     let url: String?
